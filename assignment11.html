@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="assignment11.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">
+    <script src="assignment11.js"></script>
+</head>
+
+<body>
+    <!--header start-->
+    <div class="container-fluid">
+        <div class="row header">
+            <div class="col-md-6">
+                <img src="pics/ww.png" alt="w-logo" height="40px" width="40px" id="wpic">
+                <i class="fas fa-arrow-alt-circle-up">
+                </i>
+                <p id="arrow">
+                    <b>woo beast</b>
+                </p>
+                <i class="fas fa-pen"></i>
+                <p id="cus">
+                    <b>customize</b>
+                </p>
+                <i class="fas fa-sync"></i>
+                <p id="o">
+                    <b>1</b>
+                </p>
+                <i class="fas fa-comment-alt"></i>
+                <p id="s">
+                    <b>0</b>
+                </p>
+                <i class="fas fa-plus"></i>
+                <p id="n">
+                    <b>new</b>
+                </p>
+            </div>
+            <div class="col-md-3"></div>
+            <div class="col-md-3">
+                <p id="usar">
+                    <b>howdy,woobeast</b>
+                </p>
+                <i class="fas fa-user"></i>
+                <i class="fas fa-search ffs"></i>
+            </div>
+
+        </div>
+    </div>
+    <!-- header end-->
+    <div class="container-fluid sss">
+        <div class="row">
+            <div class="col-md-1">
+            </div>
+            <div class="col-md-3">
+                <h1 id="shop">Shop</h1>
+            </div>
+            <div class="cl-md-4">
+            </div>
+
+            <div class="col-md-2 searchp">
+                <i class="fas fa-search" id="ooo"></i>
+                <input type="search" id="searchplace" placeholder=" search...">
+            </div>
+        </div>
+    </div>
+    <!-- search bar row end -->
+    <!-- drop down bar start -->
+    <div class="container-fluid sorting">
+        <div class="row">
+            <div class="col-md-1">
+            </div>
+            <div class="col-md-5">
+                <select id="dd">
+                    <option value="Default sorting">Default sorting</option>
+                    <option value="all sorting">all sorting</option>
+                    <option value="new sorting">new sorting</option>
+                </select>
+                <p id="ddp">showing alll three result</p>
+            </div>
+            <div class="col-md-6"></div>
+        </div>
+
+    </div>
+    <!-- sorting list end -->
+    <!-- cart button start -->
+    <div class="container-fluid sss">
+        <div class="row">
+            <div class="col-md-1">
+            </div>
+            <div class="col-md-3">
+            </div>
+            <div class="cl-md-4">
+            </div>
+
+            <div class="col-md-2 searchp">
+
+                <input type="submit" onclick="showcart()" id="submt" value="Show Cart">
+            </div>
+        </div>
+    </div>
+    <!-- cart button end -->
+    <div class="container-fluid lapi">
+        <div class="row">
+            <div class="col-md-1">
+            </div>
+            <div class="col-md-2">
+                <img src="pics/1.jpg" alt="Responsive image" width="150px" height="150px" align="center">
+                <p class="lt">HP Elitebook 8460 14" LED iS--</p>
+                <p class="lt">2520M</p>
+                <input type="button" value="sale!" id="fs">
+                <br>
+                <br>
+                <p>
+                    <s>$499.00</s> $199.00</p>
+                <form >
+
+                <input type="button" onclick="firstcart()" value="Add to My Cart" id="bf">
+            </form>
+            </div>
+            <div class="col-md-2">
+                <img src="pics/2.png" alt="Responsive image" width="150px" height="150px" align="center">
+                <p class="lt">Lenovo 11.6" Cherome OS Laptop</p>
+                <p class="lt">Intel Celeron</p>
+                <input type="button"  value="sale!" id="ss">
+                <br>
+                <br>
+                <p>
+                    <s>$200.00</s> $119.00</p>
+                <input type="button" onclick="secondcart()" value="Add to My Cart" id="bs">
+            </div>
+            <div class="col-md-2">
+                <img src="pics/3.png" alt="Responsive image" width="150px" height="150px" align="center">
+                <p class="lt">Samsung Galaxy Tab A SM-T550</p>
+                <p class="lt">32 GB</p>
+                <input type="button" value="sale!" id="ts">
+                <br>
+                <br>
+                <p>
+                    <s>$329.00</s> $202.00</p>
+                <input type="button" onclick="thirdcart()" value="Add to My Cart" id="bt">
+            </div>
+            <div class="col-md-1"></div>
+            <div class="col-md-4">
+                <div id="resultt">
+                    <p>
+                        <b>Cart Details</b>
+                    </p>
+                    <p id="resultf"></p>
+                    <p id="results"></p>
+                    <p id="resulto"></p>
+                    <p id="res"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
